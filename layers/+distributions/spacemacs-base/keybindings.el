@@ -364,6 +364,7 @@
   (when (and (boundp 'golden-ratio-mode)
              (symbol-value golden-ratio-mode))
     (golden-ratio)))
+(frame-parameter nil 'fullscreen)
 
 (spacemacs/set-leader-keys
   "w TAB"  'spacemacs/alternate-window
